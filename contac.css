@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200;300;400&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.manu{
+    width: 100%;
+    height: 150px;
+}
+.logo{
+    position: absolute;
+    left: 13%;
+    top: 35px;
+}
+.sear{
+    position: absolute;
+    left:  64%;
+}
+#Search-box {
+    position: absolute;
+    top: 35px;
+  }
+#search {
+    width: 320px;
+    height: 52px;
+    border: 1px solid #4e4e4e;
+    background-color: #4e4e4e;
+    padding-left: 50px;
+    color: #fffcfc;
+    border-radius: 100px;
+    font-size:18px;
+}
+#search::-webkit-input-placeholder{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+  #Search-box .fa-search {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 14px;
+    left: 12px;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+.wallet{
+    position: absolute;
+    right: 13%;
+    top: 40px;
+}
+.home{
+    position: absolute;
+        top: 5%;
+        left: 40%;
+        color: #4b4b4b;
+        font-size: 25px;
+}
+    .home:hover{
+        color: #000;
+    }
+.catalog{
+        position: absolute;
+        top: 5%;
+        left: 47%;
+        color: #4b4b4b;
+        font-size: 25px;
+}
+.catalog:hover{
+        color: #000;
+}
+.contact{
+        position: absolute;
+        top: 5%;
+        left: 55%;
+        color: #4b4b4b;
+        font-size: 25px;
+}
+    .contact:hover{
+        color: #000;
+}
+.Header H2{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 48px;
+}
+.Name{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: 20px; 
+}
+.E-Maail{
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: 20px; 
+}
+.Number{
+    position: absolute;
+    top: 46%;
+    left: 25%;
+    width: 760px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: 20px; 
+}
+.Input ::placeholder{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 8px;
+}
+textarea{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+     resize: none;
+     border-radius: 10px;
+     font-size: 20px;
+    
+}
+#txt{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+}
+
+.Send{
+    position: absolute;
+    top: 82%;
+    left: 25%;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: black;
+    color: #ffffff;
+   cursor: pointer;
+   border: 1px solid gray;
+}
+.Black-Div{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    top: 110%;
+   
+}
+.Sub-mails{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    left: 38%;
+    right: auto;
+    top: 6%;
+}
+.E-mail{
+    position: absolute;
+    border: 1px solid rgb(187, 187, 187);
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 4px;
+    color:rgb(252, 252, 252);
+    font-size: 16px;
+    padding-left: 20px;
+    left: 39%;
+    top: 43%;
+}
+.Sub-Txt{
+    position: absolute;
+    color: #ffffff;
+    font-size: 16px;
+    left: 35%;
+    right: auto;
+    top: 90px;
+}
+::placeholder{
+    position: relative;
+    color:  rgb(233, 232, 232);
+    font-size: 16px;
+}
+.Send-mail{
+    position: relative;
+    left: 55%;
+    width: 50px;
+    background-color: transparent;
+    color:  rgb(255, 248, 248); 
+    border:transparent;
+    cursor: pointer;
+    font-size: 16px;
+    top: 165px;
+}
